@@ -6,12 +6,16 @@ Used to rotate MP4 video, no ffmpeg, no re-encoding, can be used on both the Web
 
 !!!Notice: Browser memory is limited, and too large a video may throw an error.
 
+## Install
+
+`$ npm install mp4transpose`
+
 ## Usage
 See the example folder for more information.
 ### 1. web
 #### with webpack
 ```js
-import transpose from './brower.transpose';
+import transpose from 'mp4transpose';
 const input = document.getElementById('input');
 input.onchange = function () {
     const file = input.files[0];
