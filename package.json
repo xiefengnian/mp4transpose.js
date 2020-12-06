@@ -2,5 +2,30 @@
   "main": "./src/index.js",
   "dependencies": {
     "buffer": "^6.0.3"
-  }
+  },
+  "name": "mp4transpose",
+  "description": "Used to rotate MP4 video, no ffmpeg, no re-encoding, can be used on both the Web side and the Node side. The implementation principle is as follows:",
+  "version": "0.0.1",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiefengnian/mp4transpose.js.git"
+  },
+  "keywords": [
+    "mp4",
+    "rotate",
+    "video",
+    "tranpose"
+  ],
+  "author": "xiefengnian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiefengnian/mp4transpose.js/issues"
+  },
+  "homepage": "https://github.com/xiefengnian/mp4transpose.js#readme"
 }
