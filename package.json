@@ -1,0 +1,6 @@
+{
+  "main": "./src/index.js",
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}
